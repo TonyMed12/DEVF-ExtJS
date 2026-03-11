@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extensión JS</title>
-    <script src="arreglofrutas.js" defer></script>
+    <title>Caja de Comentarios</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hola, esto es la extension de JS de DEV.F por José Antonio Medina</h1>
+
+    <h1>Caja de Comentarios</h1>
+
+    <form id="commentForm">
+        <textarea id="commentInput" placeholder="Escribe tu comentario..." required></textarea>
+        <br>
+        <button type="submit">Agregar comentario</button>
+    </form>
+
+    <h2>Comentarios</h2>
+    <div id="commentList"></div>
+
+    <script src="comentarios.js"></script>
+
 </body>
 
 </html>
